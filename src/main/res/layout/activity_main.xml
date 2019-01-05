@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="16dp"
+    android:paddingTop="0dp"
+    android:gravity="center"
+    android:background="#eeeeee"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Numbers Game"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <TextView
+        android:id="@+id/tvLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Loading..."
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#666666"
+        android:layout_centerHorizontal="true"
+        />
+</LinearLayout>
